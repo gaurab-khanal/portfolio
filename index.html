@@ -1,115 +1,179 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <meta charset="UTF-8" />
-  </head>
-  <body>
-      <section class="hero">
-          <nav>
-              <img class="logo" src="src/images/logo.png" alt="Ania Kubow's logo"/>
-              <ul id="nav-list">
-                  <li><a href="#about-me">About me</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact-me">Contact</a></li>
-              </ul>
-              <button class="hamburger" id="hamburger">
-                  <i class="fas fa-bars"></i>
-              </button>
-          </nav>
-          <div class="hero-area">
+</head>
+
+<body>
+    <section class="hero">
+        <!-- NAVBAR -->
+        <nav>
+            <img class="logo" src="src/images/logo.png" alt="Ania Kubow's logo" />
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Hero Area -->
+        <div class="hero-area">
             <div class="hero-text">
                 <h1>This is Gaurab</h1>
                 <h2>I am a <span class="typed-effect"></span></h2>
                 <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
-                <div><a href="https://github.com/gaurab-khanal"  class="social">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                </a></div>
+                <div>
+                    <a href="https://github.com/gaurab-khanal" class="social" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/GaurabKhanal14" class="social" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                    </a>
+                </div>
+
             </div>
-          </div>
-      </section>
-      <section class="sub-section" id="about-me">
-          <div class="information">
-              <h2>About Me</h2>
-              <p>Hi, This is Gaurab Khanal a 1st year Computer Science Student from Nepal. <br>Currently, I am learning Front-End Development. <br> Also, Exploring different tech stuffs. </p>
-          </div>
-          <div class="headshot-container">
-              <img class="headshot" src="https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/262499108_997246480832836_6390757012281533970_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Rrp0BGVS_PEAX_0gTHg&_nc_ht=scontent.fbdp2-1.fna&oh=00_AfDmpwYFdIKDxS3ueOtSHg6mCkhaZJfAPdaU2kmiCGLkFQ&oe=63F15085" alt="Ania kubow headshot"/>
-          </div>
-      </section>
-      <section class="sub-section-alternative" id="projects">
-          <h2>Projects</h2>
-          <div class="project-container">
-              <div class="project-card">
-                  <img class="project-image" src="https://cdn.vectorstock.com/i/preview-1x/94/95/code-icon-trendy-flat-style-vector-41549495.jpg" alt="Code Editor Image"/>
-                  <h3>Code Editor</h3>
-                  <p class="subtext">This project is just for my practice.</p>
-                  <hr/>
-                  <p class="subtext"><a class="project-link" href="https://gaurab-khanal.github.io/code-editor.github.io/">View here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsvr1zEOtQETlPLeCFBjXu3W8xVL-rnUhOA&usqp=CAU" alt="Stop-Watch Image"/>
-                <h3>Stop-Watch</h3>
-                <p class="subtext">I learned more about JS specially while building this project.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://gaurab-khanal.github.io/stop-watch.github.io/">View here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="https://play-lh.googleusercontent.com/ZQNdLIu1xe-RysZi52Zr0wF8wl_v8SSRWRYfGed8DFcWTJaRkYbe7AMF6bRVZ1HV6EY" alt="Don't Laugh Image"/>
-                <h3>Don't Laugh</h3>
-                <p class="subtext">This project was really fun. I learnt about API while building this project</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://gaurab-khanal.github.io/JS-Das-Jokes/">View here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5..v1582751026.png" alt="Netflix Image"/>
+        </div>
+    </section>
+    <!-- About me -->
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About Me</h2>
+            <p>Hi, This is Gaurab Khanal a 1st year Computer Science Student from Nepal. <br>Currently, I am learning
+                Front-End Development. <br> Also, Exploring different tech stuffs. </p>
+        </div>
+        <div class="headshot-container">
+            <img class="headshot"
+                src="https://avatars.githubusercontent.com/u/40165867?s=400&u=844b642eca6913bf8a910f96ff149b683ea8000c&v=4" />
+        </div>
+    </section>
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-image"
+                    src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5..v1582751026.png"
+                    alt="Netflix Image" />
                 <h3>Netflix-Clone</h3>
                 <p class="subtext">I build Netflix-Clone this time. It was really time consuming as well really fun.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/gaurab-khanal/Netflix-Clone">View here</a></p>
-              </div>
-          </div>
-      </section>
-      <footer id="contact-me">
-          <h2>Contact me</h2>
-          <p>khanalgaurab98@gmail.com</p>
-          <div class="socials">
-            <div><a href="https://github.com/gaurab-khanal"  class="social">
-                <i class="fa-brands fa-github social-logo"></i>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://github.com/gaurab-khanal/Netflix-Clone">View
+                        here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image"
+                    src="https://logo.com/image-cdn/images/kts928pd/production/0089b7ae1ed394f041c5f7929e111c11e8eafe4d-424x421.png?w=1080&q=72"
+                    alt="Ecommerce App" />
+                <h3>Ecommerce App</h3>
+                <p class="subtext">Build this to enchance my ReactJS and NodeJS skill(didnt focused much on design part).</p>
+                <p class="subtext">Tech Stack used: MERN</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://ecomm-frontend-omega.vercel.app/">View
+                        here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image"
+                    src="https://www.opensourceforu.com/wp-content/uploads/2022/03/Open-Source-Maturity-Model.jpg"
+                    alt="" />
+                <h3>OpenSource</h3>
+                <p class="subtext">This includes visitors to view opensource programs and viewers can add new program only if they are logged in.</p>
+                <p class="subtext">Tech Stack used: MERN</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://ospi.vercel.app/">View
+                        here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image"
+                    src="https://cdn.vectorstock.com/i/preview-1x/94/95/code-icon-trendy-flat-style-vector-41549495.jpg"
+                    alt="Code Editor Image" />
+                <h3>Code Editor</h3>
+                <p class="subtext">This project is just for my practice.</p>
+                <hr />
+                <p class="subtext"><a class="project-link"
+                        href="https://gaurab-khanal.github.io/code-editor.github.io/">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsvr1zEOtQETlPLeCFBjXu3W8xVL-rnUhOA&usqp=CAU"
+                    alt="Stop-Watch Image" />
+                <h3>Stop-Watch</h3>
+                <p class="subtext">I learned more about JS specially while building this project.</p>
+                <hr />
+                <p class="subtext"><a class="project-link"
+                        href="https://gaurab-khanal.github.io/stop-watch.github.io/">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image"
+                    src="https://play-lh.googleusercontent.com/ZQNdLIu1xe-RysZi52Zr0wF8wl_v8SSRWRYfGed8DFcWTJaRkYbe7AMF6bRVZ1HV6EY"
+                    alt="Don't Laugh Image" />
+                <h3>Don't Laugh</h3>
+                <p class="subtext">This project was really fun. I learnt about API while building this project</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://gaurab-khanal.github.io/JS-Das-Jokes/">View
+                        here</a></p>
+            </div>
+            
+        </div>
+    </section>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>khanalgaurab98@gmail.com</p>
+        <div class="socials">
+            <div><a href="https://github.com/gaurab-khanal" class="social">
+                    <i class="fa-brands fa-github social-logo"></i>
+                </a></div>
+            <div class=""><a href="https://www.facebook.com/gaurab.khanal98" class="social">
+                    <i class="fa-brands fa-facebook social-logo""></i>
             </a></div>
-            <div class=""><a href="https://www.facebook.com/gaurab.khanal98"  class="social">
-                <i class="fa-brands fa-facebook social-logo""></i>
-            </a></div>
+            <div>
+                <a href="https://twitter.com/GaurabKhanal14" class="social" target="_blank">
+                    <i class="fa-brands fa-x social-logo"></i>
+                </a>
+            </div>
         </div>
       </footer>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typed = new Typed(".typed-effect",{
-            strings:["Student", "Developer", "Computer Science Enthusiast", "Learner"],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true
-        });
+      <script src=" https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                        <script>
+                            var typed = new Typed(".typed-effect", {
+                                strings: ["Student", "Developer", "Computer Science Enthusiast", "Learner"],
+                                typeSpeed: 150,
+                                backSpeed: 150,
+                                loop: true
+                            });
 
-        const hamburgerButton = document.getElementById('hamburger')
-const navList = document.getElementById('nav-list')
+                            const hamburgerButton = document.getElementById('hamburger')
+                            const navList = document.getElementById('nav-list')
 
 
 
-function toggleButton() {
-    navList.classList.toggle('show')
-}
+                            function toggleButton() {
+                                navList.classList.toggle('show')
+                            }
 
-hamburgerButton.addEventListener('click', toggleButton)
-    </script>
-   
-  </body>
+                            hamburgerButton.addEventListener('click', toggleButton)
+                        </script>
+
+</body>
+
 </html>
